@@ -3,9 +3,9 @@
 En el segundo día y curso de los 4 cursos de la serie Inmersión de Datos de Alura Latam los instructores dejan los siguientes desafíos:
 
 <ul>
-<li>**1. Estudiar mejor el histograma de valores, seleccionar 3 tipos de inmuebles (Refinar el gráfico: Títulos, aumentar el tamaño de labels, colores, conclusión de la información)**</li>
+<li><b>1. Estudiar mejor el histograma de valores, seleccionar 3 tipos de inmuebles (Refinar el gráfico: Títulos, aumentar el tamaño de labels, colores, conclusión de la información)</b></li>
 
-<li>**2. Precio del m2 por barrio y hacer el gráfico más adecuado para esta nueva variable.**</li>
+<li><b>2. Precio del m2 por barrio y hacer el gráfico más adecuado para esta nueva variable.</b></li>
 </ul>
 
 Empezaré por resolver el segundo desafío para luego realizar el primer desafío.
