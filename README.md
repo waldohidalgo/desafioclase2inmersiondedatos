@@ -99,7 +99,7 @@ Dicho código me muestra el siguiente gráfico combinado:
 
 ![TOP 10 de Barrios con mayor y menor Precio del metro cuadrado](./img/Top10MayoresyMenoresPrecios.png)
 
-Lo que he realizado es crear un una figura con una fila y 2 columnas y en cada columna he agregado cada subplot. Además, he cambiado los colores de las barras, la orientación de las barras, he agregado etiquetas a las barras con dos decimales, he colocado el título con negrita y he agregado labels a los ejes de coordenadas.
+Lo que he realizado es crear una figura con una fila y 2 columnas y en cada columna he agregado cada subplot. Además, he cambiado los colores de las barras, la orientación de las barras, he agregado etiquetas a las barras con dos decimales, he colocado el título con negrita y he agregado labels a los ejes de coordenadas.
 
 ## **Resolución del primer desafío**
 
@@ -119,7 +119,7 @@ Dicho código me muestra el siguiente gráfico:
 
 ![Histograma Casas](./img/HistogramaCasas.png)
 
-Ahora lo que haré crear un **gráfico combinado** en el cual mostraré los tres tipos de propiedades que he seleccionado que son: **Casa**, **Apartamento** y **Finca**. Para ello escribo el siguiente código:
+Ahora lo que haré es crear un **gráfico combinado** en el cual mostraré los tres tipos de propiedades que he seleccionado que son: **Casa**, **Apartamento** y **Finca**. Para ello escribo el siguiente código:
 
 ```
 arrayTipo=['Apartamento','Casa','Finca']
@@ -138,9 +138,9 @@ Dicho código me genera el siguiente gráfico combinado:
 
 ![Gráfico combinado de Histograma de Casas, Apartamento y Finca](./img/GraficoHistogramasCombinados.png)
 
-Como se puede observar, he creado en cada gráfico un titulo con el mismo color de las columnas y en negrita, he cambiado el color de las columnas, he agregado etiquetas a cada columna y he agregado etiquetas a cada eje de coordenadas.
+Como se puede observar, he creado en cada gráfico un título con el mismo color de las columnas y en negrita, he cambiado el color de las columnas y he agregado etiquetas a cada eje de coordenadas.
 
-Ahora lo que realizaré es una comparación entre lso histogramas de Apartamento y Casas y para ello escribo el siguiente código:
+Ahora lo que realizaré es una comparación entre los histogramas de Apartamento y Casas y para ello escribo el siguiente código:
 
 ```
 DataCasaApartamento=inmuebles[inmuebles['Tipo'].isin(['Casa','Apartamento'])]
@@ -185,4 +185,12 @@ Por último y en base a los gráficos realizados concluyo lo siguiente:
 
 ## **Conclusiones**
 
-Al comparar las Casas, Apartamentos y Fincas se observa que la cantidad de apartamentos es por lejos lo que mayor se presenta, es decir, ocurre con mayor frecuencia. Para los tres tipos se observa que la concentración de frecuencia se presenta en los precios menores siendo esto más evidente para las casas y apartamentos. Para el caso de las casas y apartamentos se observa una cierta continuidad de precios lo que significa que la oferta es diversa y que cubre varios segmentos de clientes. Para el caso de las fincas, se observa que los precios son más discretos y la frecuencia es marcada y notoriamente menor frente a los apartamentos y las casas. Por último, se observa que para precios altos, aproximadamente, sobre los 2000 Millones la frecuencia de las casas y apartamentos se comporta de manera similar.
+1-✔️Al comparar las Casas, Apartamentos y Fincas se observa que la cantidad de apartamentos es por lejos lo que mayor se presenta, es decir, ocurre con mayor frecuencia.
+
+2-✔️Para los tres tipos se observa que la concentración de frecuencia se presenta en los precios menores siendo esto más evidente para las casas y apartamentos.
+
+3-✔️Para el caso de las casas y apartamentos se observa una cierta continuidad de precios lo que significa que la oferta es diversa y que cubre varios segmentos de clientes.
+
+4-✔️Para el caso de las fincas, se observa que los precios son más discretos y la frecuencia es marcada y notoriamente menor frente a los apartamentos y las casas.
+
+5-✔️Por último, se observa que para precios altos, aproximadamente, sobre los 2000 Millones la frecuencia de las casas y apartamentos se comporta de manera similar.
